@@ -4,6 +4,10 @@
    background-color: rgb(243, 239, 239);
    position: sticky;
    top: 50px;
+   border-radius: 10px;
+   -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
  }
 
  .sidebarWrapper {
@@ -35,6 +39,9 @@
 
  .sidebarListItem.active, .sidebarListItem:hover {
    background-color: rgb(180, 173, 173);
+   -webkit-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+   -moz-box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+   box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 
  }
 
